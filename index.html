@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun with Numbers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Fun with Numbers</h1>
+
+    <div class="section">
+        <h2>1. Slot Machine Sum</h2>
+        <label for="array1">Array 1:</label>
+        <input type="text" id="array1" placeholder="e.g., 1,2,3"><br><br>
+        <label for="array2">Array 2:</label>
+        <input type="text" id="array2" placeholder="e.g., 0,7"><br><br>
+        <button onclick="calculateSum()">Calculate Sum</button>
+        <div class="result" id="sumResult"></div>
+    </div>
+
+    <div class="section">
+        <h2>2. Palindrome Checker</h2>
+        <label for="number">Enter a number:</label>
+        <input type="text" id="number" placeholder="e.g., 1441"><br><br>
+        <button onclick="checkPalindrome()">Check Palindrome</button>
+        <div class="result" id="palindromeResult"></div>
+    </div>
+
+    <div class="section">
+        <h2>3. Validate User Input</h2>
+        <label for="userInput">Enter a value:</label>
+        <input type="text" id="userInput" placeholder="e.g., 123"><br><br>
+        <button onclick="validateInput()">Validate Input</button>
+        <div class="result error" id="validationResult"></div>
+    </div>
+    <script src='main.js'></script>
+</body>
+</html>
