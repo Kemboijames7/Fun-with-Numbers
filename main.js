@@ -1,7 +1,7 @@
 function twoSum(array1, array2) {
-    const num1 = Number(array1.join(''));
-    const num2 = Number(array2.join(''));
-    return num1 + num2;
+    return Number(array1.join('')) +  Number(array2.join(''));
+ 
+    
 }
 
 function luckyNumber(value) {
